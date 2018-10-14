@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .access {
     padding: 90px 0 60px;
     color: #5a5c5f;
