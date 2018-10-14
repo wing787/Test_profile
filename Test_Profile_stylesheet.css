@@ -11,7 +11,7 @@
     background-color: white;
     position: fixed;
     top: 0;
-    opacity: 0.9;
+    opacity: 0.92;
 }
 
 .container {
@@ -43,7 +43,8 @@
 }
 
 .header-right a:hover {
-    background-color: #fe2e2e;
+    color: white;
+    background-color: #7fffd4;
     transition: background-color 0.275s;
     border-radius: 30px;
 }
