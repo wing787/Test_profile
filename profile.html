@@ -1,128 +1,47 @@
-@charset "utf-8";
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    height: 56px;
-    width: 100%;
-    box-shadow: 0 0 10px #dddddd;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    opacity: 0.92;
-}
-
-.container {
-    max-width: 980px;
-    padding: 0 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header-left {
-    float: left;
-}
-
-.header-logo {
-    height: 40px;
-    margin-top: 8px;
-}
-
-.header-right {
-    float: right;
-}
-
-.header-right a {
-    line-height: 56px;
-    color: #5a5c5f;
-    margin-left: 5px;
-    font-size: 16px;
-    padding: 16px 5px;
-}
-
-.header-right a:hover {
-    color: white;
-    background-color: #7fffd4;
-    transition: background-color 0.275s;
-    border-radius: 30px;
-}
-
-.clear {
-    clear: both;
-}
-
-.main-visual {
-    height: 750px;
-    padding-top: 140px;
-    padding-bottom: 100px;
-    background-image: url("PictureSource/980245_426023737515048_237812236_o_426023737515048.jpg");
-    background-size: cover;
-    color: #f5f5f5;
-    text-align: center;
-    text-shadow: 2.5px 2.5px #0000ff;
-}
-
-.top-title {
-    font-size: 64px;
-    margin-bottom: 10px;
-    font-family: serif;
-}
-
-.top-subtitle {
-    font-size: 33px;
-    margin-bottom: 60px;
-    font-weight: 100;
-    text-shadow: 2px 2px #00008b;
-}
-
-.top-text {
-    opacity: 0.9;
-    text-shadow: 1.5px 1.5px #008000;
-}
-
-.main {
-    padding:80px 0;
-    color: #5a5c5f;
-    text-align: center;
-}
-
-.main h2 {
-    margin-bottom: 25px;
-}
-
-.main-image {
-    width: 450px;
-    margin-bottom: 25px;
-    box-shadow: 2px 4px 10px 5px #848484;
-    border-radius: 100px;
-}
-
-.main h3 {
-    margin-bottom: 10px;
-}
-
-.footer {
-    height: 60px;
-    background-color: #2f3a44;
-    color: #e8e8e8;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 13px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.footer-left {
-    float: left;
-}
-
-.footer-right {
-    float: right;
-    padding-top: 50px;
-}
-
-.footer-left p {
-    margin-bottom: 8px;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TsubasaMoriguchi_TestProfile</title>
+        <link rel="stylesheet" href="Test_Profile_stylesheet.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="header-left">
+                    <img class="header-logo" src="PictureSource/856174_471772419606846_1328110315_o_471772419606846.jpg" alt="Profile-Logo">
+                </div>
+                <div class="header-right">
+                    <a href="etc.html">etc....</a>
+                    <a href="access＆map.html">Access＆Map</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="main-visual">
+            <div class="container">
+                <h1 class="top-title">Tsubasa Moriguchi</h1>
+                <h2 class="top-subtitle">森口 翼</h2>
+                <p class="top-text">ここはお試しに作った自己紹介ページです。</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <h2>諸々</h2>
+                <img class="main-image" src="PictureSource/13404031_956921937758556_4407964482559487869_o_956921937758556.jpg" alt="ヨーロッパのとある街角">
+                <h3>よしなしな</h3>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <p>Tsubasa Moriguchi</p>
+                <p>森口 翼</p>
+            </div>
+            <div class="footer-right">
+                &copy; 2018 Tsubasa Moriguchi
+            </div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
